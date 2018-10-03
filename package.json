@@ -12,8 +12,8 @@
     "type": "git",
     "url": "git+https://github.com/highlanderkev/web.components.git"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "Kevin Westropp (mail@kevinpatrickwestropp.com",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/highlanderkev/web.components/issues"
   },
