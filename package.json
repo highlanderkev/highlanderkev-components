@@ -4,8 +4,9 @@
   "description": "Custom Elements and Web Components",
   "main": "index.js",
   "scripts": {
+    "start": "npm run dev",
     "build": "webpack --config webpack.config.js --mode=production",
-    "start": "webpack-dev-server --open --mode=development",
+    "dev": "webpack-dev-server --open --mode=development",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
