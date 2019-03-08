@@ -1,7 +1,7 @@
 {
-    "extends": "tslint:recommended",
-    "rules": {
-        "quotemark": [true, "single", "avoid-template"],
-        "ordered-imports": false
-    }
+  "extends": "tslint:recommended",
+  "rules": {
+    "quotemark": [true, "single", "avoid-template"],
+    "ordered-imports": false
+  }
 }
