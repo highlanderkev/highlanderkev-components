@@ -21,21 +21,21 @@
   "homepage": "https://github.com/highlanderkev/highlanderkev.components#readme",
   "devDependencies": {
     "html-webpack-plugin": "^3.2.0",
-    "ts-loader": "^5.2.1",
-    "tslint": "^5.11.0",
-    "typescript": "^3.1.1",
-    "webpack": "^4.20.2",
-    "webpack-cli": "^3.1.2",
-    "webpack-dev-server": "^3.1.9"
+    "ts-loader": "^5.3.3",
+    "tslint": "^5.13.1",
+    "typescript": "^3.3.3333",
+    "webpack": "^4.29.6",
+    "webpack-cli": "^3.2.3",
+    "webpack-dev-server": "^3.2.1"
   },
   "dependencies": {
     "@material/drawer": "^0.42.0",
     "@polymer/decorators": "^3.0.0",
-    "@polymer/lit-element": "^0.6.1",
     "@polymer/paper-button": "^3.0.1",
     "@polymer/paper-card": "^3.0.1",
-    "@polymer/polymer": "^3.0.5",
-    "@webcomponents/webcomponentsjs": "^2.1.3"
+    "@polymer/polymer": "^3.1.0",
+    "@webcomponents/webcomponentsjs": "^2.2.7",
+    "lit-element": "^2.0.1"
   },
   "engines": {
     "node": "^10.14.0"
