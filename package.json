@@ -2,7 +2,7 @@
   "name": "highlanderkev-components",
   "version": "0.0.1",
   "description": "Custom Elements and Web Components",
-  "author": "Kevin Westropp (mail@kevinpatrickwestropp.com)",
+  "author": "Kevin Westropp (mail@highlanderkev.dev)",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
   "es2015": "dist/esm/index.mjs",
@@ -23,6 +23,9 @@
     "url": "https://github.com/highlanderkev/highlanderkev.components/issues"
   },
   "homepage": "https://github.com/highlanderkev/highlanderkev.components#readme",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
   "scripts": {
     "start": "npm run dev",
     "build": "stencil build --docs",
