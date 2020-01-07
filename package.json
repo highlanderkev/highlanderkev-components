@@ -1,32 +1,37 @@
 {
-  "name": "highlanderkev.components",
+  "name": "highlanderkev-components",
   "version": "0.0.1",
   "description": "Custom Elements and Web Components",
-  "main": "index.js",
-  "scripts": {
-    "start": "npm run dev",
-    "build": "webpack --config webpack.config.js --mode=production",
-    "dev": "webpack-dev-server --open --mode=development",
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "author": "Kevin Westropp (mail@kevinpatrickwestropp.com)",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "es2015": "dist/esm/index.mjs",
+  "es2017": "dist/esm/index.mjs",
+  "types": "dist/types/index.d.ts",
+  "collection": "dist/collection/collection-manifest.json",
+  "collection:main": "dist/collection/index.js",
+  "unpkg": "dist/highlanderkev-components/highlanderkev-components.js",
+  "files": [
+    "dist/",
+    "loader/"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/highlanderkev/highlanderkev.components.git"
   },
-  "author": "Kevin Westropp (mail@kevinpatrickwestropp.com)",
-  "license": "MIT",
   "bugs": {
     "url": "https://github.com/highlanderkev/highlanderkev.components/issues"
   },
   "homepage": "https://github.com/highlanderkev/highlanderkev.components#readme",
-  "devDependencies": {
-    "html-webpack-plugin": "^3.2.0",
-    "ts-loader": "^5.2.1",
-    "tslint": "^5.11.0",
-    "typescript": "^3.1.1",
-    "webpack": "^4.20.2",
-    "webpack-cli": "^3.1.2",
-    "webpack-dev-server": "^3.1.9"
+  "scripts": {
+    "start": "npm run dev",
+    "build": "stencil build --docs",
+    "dev": "stencil build --dev --watch --serve",
+    "test": "stencil test --spec --e2e",
+    "test.watch": "stencil test --spec --e2e --watchAll",
+    "generate": "stencil generate",
+    "webpack-build": "webpack --config webpack.config.js --mode=production",
+    "webpack-dev": "webpack-dev-server --open --mode=development"
   },
   "dependencies": {
     "@polymer/decorators": "^3.0.0",
@@ -35,5 +40,16 @@
     "@polymer/paper-card": "^3.0.1",
     "@polymer/polymer": "^3.0.5",
     "@webcomponents/webcomponentsjs": "^2.1.3"
-  }
+  },
+  "devDependencies": {
+    "@stencil/core": "^1.8.3",
+    "eslint": "^6.8.0",
+    "html-webpack-plugin": "^3.2.0",
+    "ts-loader": "^5.2.1",
+    "typescript": "^3.1.1",
+    "webpack": "^4.41.5",
+    "webpack-cli": "^3.1.2",
+    "webpack-dev-server": "^3.10.1"
+  },
+  "license": "MIT"
 }

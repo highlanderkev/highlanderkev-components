@@ -1,0 +1,25 @@
+.profile {
+  display: flex;
+  padding: 10px;
+  text-align: center;
+  line-height: 2px;
+}
+.profile.profile-container {
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.profile-name {
+  font-weight: 400;
+}
+.profile-title {
+  font-weight: 300;
+  margin: 0;
+}
+.profile-pic {
+  width: 75px;
+  height: 75px;
+  border: 0;
+  border-radius: 50%;
+}

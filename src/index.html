@@ -1,19 +1,18 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html dir="ltr" lang="en">
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device,initial-scale=1.0">
-
-    <title>highlanderkev.components</title>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/webcomponentsjs/2.0.2/webcomponents-loader.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=5.0">
+    <title>highlanderkev-components</title>
+    <script type="module" src="/build/highlanderkev-components.esm.js"></script>
+    <script nomodule src="/build/highlanderkev-components.js"></script>
 </head>
-
 <body>
-    <kpw-app>No Scripts</kpw-app>
-    <kpw-card heading="Test Card" content="This is a test card."></kpw-card>
+    <kpw-app text="No Scripts"></kpw-app>
     <kpw-profile name="Kevin Westropp" title="Developer"></kpw-profile>
+    <kpw-header></kpw-header>
+    <my-component first="Stencil" last="'Don't call me a framework' JS"></my-component>
+    <kpw-card content="Test"></kpw-card>
 </body>
-
 </html>
