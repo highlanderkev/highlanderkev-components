@@ -42,7 +42,7 @@ export namespace Components {
   interface KpwProfile {
     'imageSrc': string;
     'name': string;
-    'title': string;
+    'position': string;
     'url': string;
   }
   interface MyComponent {
@@ -135,7 +135,7 @@ declare namespace LocalJSX {
   interface KpwProfile {
     'imageSrc'?: string;
     'name'?: string;
-    'title'?: string;
+    'position'?: string;
     'url'?: string;
   }
   interface MyComponent {

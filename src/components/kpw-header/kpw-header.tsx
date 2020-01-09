@@ -1,6 +1,4 @@
-// import { LitElement, html, property } from '@polymer/lit-element';
-// import { TemplateResult } from 'lit-html';
-import { Component } from '@stencil/core';
+import { Component, h } from '@stencil/core';
 
 @Component({
   tag: 'kpw-header',
@@ -8,11 +6,6 @@ import { Component } from '@stencil/core';
 })
 export class KPWHeaderComponent {
   render() {
-      return
-      <header>
-        <div>
-          Header
-        </div>
-      </header>;
+      return <header><div>Header</div></header>;
   }
 }

@@ -13,7 +13,7 @@ export class KPWProfileComponent {
   public name: string;
 
   @Prop()
-  public title: string;
+  public position: string;
 
   @Prop()
   public imageSrc: string;
@@ -25,7 +25,7 @@ export class KPWProfileComponent {
     return  <div class="profile profile-container">
               <img src="{this.imageSrc}" class="profile-pic"/>
               <h3 class="profile-name">{this.name}</h3>
-              <h5 class="profile-title">{this.title}</h5>
+              <h5 class="profile-title">{this.position}</h5>
             </div>;
   }
 }
