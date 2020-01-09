@@ -1,17 +1,27 @@
 {
   "compilerOptions": {
-    "target": "ES6",
-    "module": "ES6",
-    "moduleResolution": "node",
+    "allowSyntheticDefaultImports": true,
+    "allowUnreachableCode": false,
+    "declaration": false,
     "experimentalDecorators": true,
-    "strict": true,
+    "lib": [
+      "dom",
+      "es2017"
+    ],
+    "moduleResolution": "node",
+    "module": "esnext",
+    "target": "es2017",
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "jsx": "react",
+    "jsxFactory": "h",
     "removeComments": true,
-    "outDir": "./dist"
   },
-  "include": ["src/**/*"],
-  "exclude": ["node_modules", "**/*.spec.ts"],
-  "typedocOptions": {
-    "mode": "modules",
-    "out": "docs"
-  }
+  "include": [
+    "src",
+    "types/jsx.d.ts"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
 }
