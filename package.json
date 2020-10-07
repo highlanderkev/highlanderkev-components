@@ -1,0 +1,51 @@
+{
+  "name": "web.components",
+  "version": "1.0.0",
+  "description": "Web Components",
+  "main": "index.js",
+  "scripts": {
+    "webpack": "./node_modules/.bin/webpack",
+    "build": "webpack --config webpack.config.js",
+    "watch": "webpack --watch",
+    "start": "webpack-dev-server --open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/highlanderkev/web.components.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/highlanderkev/web.components/issues"
+  },
+  "homepage": "https://github.com/highlanderkev/web.components#readme",
+  "dependencies": {
+    "@polymer/iron-ajax": "^3.0.0-pre.21",
+    "@polymer/iron-collapse": "^3.0.0-pre.21",
+    "@polymer/iron-dropdown": "^3.0.0-pre.21",
+    "@polymer/iron-fit-behavior": "^3.0.0-pre.21",
+    "@polymer/iron-flex-layout": "^3.0.0-pre.21",
+    "@polymer/iron-image": "^3.0.0-pre.21",
+    "@polymer/iron-input": "^3.0.0-pre.21",
+    "@polymer/iron-localstorage": "^3.0.0-pre.21",
+    "@polymer/iron-media-query": "^3.0.0-pre.21",
+    "@polymer/iron-pages": "^3.0.0-pre.21",
+    "@polymer/iron-resizable-behavior": "^3.0.0-pre.21",
+    "@polymer/iron-selector": "^3.0.0-pre.21",
+    "@polymer/paper-button": "^3.0.0-pre.21",
+    "@polymer/paper-card": "^3.0.0-pre.21",
+    "@polymer/paper-input": "^3.0.0-pre.21",
+    "@polymer/polymer": "^3.0.5",
+    "@webcomponents/webcomponentsjs": "^2.0.4"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.0.0-beta.56",
+    "@babel/polyfill": "^7.0.0-beta.56",
+    "@babel/preset-env": "^7.0.0-beta.56",
+    "html-webpack-plugin": "^3.2.0",
+    "uglifyjs-webpack-plugin": "^1.2.7",
+    "webpack": "^4.16.4",
+    "webpack-cli": "^3.1.0",
+    "webpack-dev-server": "^3.1.5"
+  }
+}
