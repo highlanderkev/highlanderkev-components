@@ -10,34 +10,12 @@ import { HTMLStencilElement, JSXBase } from '@stencil/core/internal';
 
 
 export namespace Components {
-  interface KpwApp {
-    /**
-    * My Property
-    * @type {string}
-    * @memberof KPWAppElement
-    */
-    'text': string;
-  }
   interface KpwCard {
-    /**
-    * Content property
-    * @type {string}
-    * @memberof KPWAppElement
-    */
     'content': string;
-    /**
-    * Heading property
-    * @type {string}
-    * @memberof KPWCardElement
-    */
     'heading': string;
-    /**
-    * Image URL Property
-    * @type {string}
-    * @memberof KPWCardElement
-    */
     'imageUrl': string;
   }
+  interface KpwContainer {}
   interface KpwHeader {}
   interface KpwProfile {
     'imageSrc': string;
@@ -64,16 +42,16 @@ export namespace Components {
 declare global {
 
 
-  interface HTMLKpwAppElement extends Components.KpwApp, HTMLStencilElement {}
-  var HTMLKpwAppElement: {
-    prototype: HTMLKpwAppElement;
-    new (): HTMLKpwAppElement;
-  };
-
   interface HTMLKpwCardElement extends Components.KpwCard, HTMLStencilElement {}
   var HTMLKpwCardElement: {
     prototype: HTMLKpwCardElement;
     new (): HTMLKpwCardElement;
+  };
+
+  interface HTMLKpwContainerElement extends Components.KpwContainer, HTMLStencilElement {}
+  var HTMLKpwContainerElement: {
+    prototype: HTMLKpwContainerElement;
+    new (): HTMLKpwContainerElement;
   };
 
   interface HTMLKpwHeaderElement extends Components.KpwHeader, HTMLStencilElement {}
@@ -94,8 +72,8 @@ declare global {
     new (): HTMLMyComponentElement;
   };
   interface HTMLElementTagNameMap {
-    'kpw-app': HTMLKpwAppElement;
     'kpw-card': HTMLKpwCardElement;
+    'kpw-container': HTMLKpwContainerElement;
     'kpw-header': HTMLKpwHeaderElement;
     'kpw-profile': HTMLKpwProfileElement;
     'my-component': HTMLMyComponentElement;
@@ -103,34 +81,12 @@ declare global {
 }
 
 declare namespace LocalJSX {
-  interface KpwApp {
-    /**
-    * My Property
-    * @type {string}
-    * @memberof KPWAppElement
-    */
-    'text'?: string;
-  }
   interface KpwCard {
-    /**
-    * Content property
-    * @type {string}
-    * @memberof KPWAppElement
-    */
     'content'?: string;
-    /**
-    * Heading property
-    * @type {string}
-    * @memberof KPWCardElement
-    */
     'heading'?: string;
-    /**
-    * Image URL Property
-    * @type {string}
-    * @memberof KPWCardElement
-    */
     'imageUrl'?: string;
   }
+  interface KpwContainer {}
   interface KpwHeader {}
   interface KpwProfile {
     'imageSrc'?: string;
@@ -154,8 +110,8 @@ declare namespace LocalJSX {
   }
 
   interface IntrinsicElements {
-    'kpw-app': KpwApp;
     'kpw-card': KpwCard;
+    'kpw-container': KpwContainer;
     'kpw-header': KpwHeader;
     'kpw-profile': KpwProfile;
     'my-component': MyComponent;
@@ -168,8 +124,8 @@ export { LocalJSX as JSX };
 declare module "@stencil/core" {
   export namespace JSX {
     interface IntrinsicElements {
-      'kpw-app': LocalJSX.KpwApp & JSXBase.HTMLAttributes<HTMLKpwAppElement>;
       'kpw-card': LocalJSX.KpwCard & JSXBase.HTMLAttributes<HTMLKpwCardElement>;
+      'kpw-container': LocalJSX.KpwContainer & JSXBase.HTMLAttributes<HTMLKpwContainerElement>;
       'kpw-header': LocalJSX.KpwHeader & JSXBase.HTMLAttributes<HTMLKpwHeaderElement>;
       'kpw-profile': LocalJSX.KpwProfile & JSXBase.HTMLAttributes<HTMLKpwProfileElement>;
       'my-component': LocalJSX.MyComponent & JSXBase.HTMLAttributes<HTMLMyComponentElement>;

@@ -9,10 +9,19 @@
     <script nomodule src="/build/highlanderkev-components.js"></script>
 </head>
 <body>
-    <kpw-app text="No Scripts"></kpw-app>
+  <kpw-container>
     <kpw-profile name="Kevin Westropp" title="Developer"></kpw-profile>
     <kpw-header></kpw-header>
     <my-component first="Stencil" last="'Don't call me a framework' JS"></my-component>
-    <kpw-card content="Test"></kpw-card>
+    <kpw-card content="Test">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Monasterio_Khor_Virap%2C_Armenia%2C_2016-10-01%2C_DD_25.jpg/2880px-Monasterio_Khor_Virap%2C_Armenia%2C_2016-10-01%2C_DD_25.jpg" alt="test" width="200" slot="image">
+      <div slot="header">
+        <h1>This is the header.</h1>
+        <h2>Test</h2>
+      </div>
+      <p slot="body">This is the body.</p>
+      <h5 slot="footer">This is the footer.</h5>
+    </kpw-card>
+  </kpw-container>
 </body>
 </html>
