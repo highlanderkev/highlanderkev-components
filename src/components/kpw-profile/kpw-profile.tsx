@@ -1,6 +1,3 @@
-// import { LitElement, html, property } from '@polymer/lit-element';
-// import { TemplateResult } from 'lit-html';
-// import { property } from '@polymer/decorators';
 import { Component, Prop, h } from '@stencil/core';
 
 @Component({
@@ -23,7 +20,7 @@ export class KPWProfileComponent {
 
   render() {
     return  <div class="profile profile-container">
-              <img src="{this.imageSrc}" class="profile-pic"/>
+              <img src={this.imageSrc} class="profile-pic"/>
               <h3 class="profile-name">{this.name}</h3>
               <h5 class="profile-title">{this.position}</h5>
             </div>;
