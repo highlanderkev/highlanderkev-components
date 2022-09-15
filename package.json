@@ -1,6 +1,6 @@
 {
   "name": "@highlanderkev/highlanderkev-components",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "description": "Custom Elements and Web Components",
   "author": "Kevin Westropp (mail@highlanderkev.dev)",
   "main": "dist/index.js",
