@@ -1,7 +1,3 @@
-// import {PolymerElement, html} from '@polymer/polymer';
-// import {customElement, property} from '@polymer/decorators';
-// import '@polymer/paper-card/paper-card';
-// import '@polymer/paper-button/paper-button';
 import { Component, Prop, h } from '@stencil/core';
 
 @Component({
