@@ -1,0 +1,313 @@
+repo_name: highlanderkev/highlanderkev-components
+report_id: 526fe5959b3381b8bba2c57cfecf209e
+version: 0.1
+repo_type: Public
+timestamp: '2024-01-31T17:16:27+00:00'
+requested_by: highlanderkev
+provider: github
+branch: dev
+detected_tools_count: 23
+tools:
+- name: CSS 3
+  description: The latest evolution of the Cascading Style Sheets language
+  website_url: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS3
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/6727/css.png
+  detection_source_url: https://github.com/highlanderkev/highlanderkev-components
+  detection_source: Repo Metadata
+- name: JavaScript
+  description: Lightweight, interpreted, object-oriented language with first-class
+    functions
+  website_url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/highlanderkev/highlanderkev-components
+  detection_source: Repo Metadata
+- name: TypeScript
+  description: A superset of JavaScript that compiles to clean JavaScript output
+  website_url: http://www.typescriptlang.org
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1612/bynNY5dJ.jpg
+  detection_source_url: https://github.com/highlanderkev/highlanderkev-components
+  detection_source: Repo Metadata
+- name: Polymer
+  description: A new library built on top of Web Components, designed to leverage
+    the evolving web platform on modern browsers
+  website_url: https://www.polymer-project.org
+  version: 3.5.1
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Front-End Frameworks
+  image_url: https://img.stackshare.io/service/1934/R8YcGKHV.png
+  detection_source_url: https://github.com/highlanderkev/highlanderkev-components/blob/dev/package-lock.json
+  detection_source: package.json
+  last_updated_by: Kevin Westropp
+  last_updated_on: 2018-12-13 05:44:45.000000000 Z
+- name: ESLint
+  description: The fully pluggable JavaScript code quality tool
+  website_url: http://eslint.org/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Code Review
+  image_url: https://img.stackshare.io/service/3337/Q4L7Jncy.jpg
+  detection_source_url: https://github.com/highlanderkev/highlanderkev-components/blob/dev/package.json
+  detection_source: package.json
+  last_updated_by: Kevin Westropp
+  last_updated_on: 2018-10-02 23:49:13.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/highlanderkev/highlanderkev-components
+  detection_source: Repo Metadata
+- name: GitHub Actions
+  description: Automate your workflow from idea to production
+  website_url: https://github.com/features/actions
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/11563/actions.png
+  detection_source_url: https://github.com/highlanderkev/highlanderkev-components/blob/dev/.github/workflows/npm-publish-github-packages.yml
+  detection_source: ".github/workflows/npm-publish-github-packages.yml"
+  last_updated_by: Kevin Westropp
+  last_updated_on: 2022-09-15 18:12:22.000000000 Z
+- name: Jest
+  description: Painless JavaScript Unit Testing
+  website_url: http://facebook.github.io/jest/
+  version: 29.3.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Javascript Testing Framework
+  image_url: https://img.stackshare.io/service/830/jest.png
+  detection_source_url: https://github.com/highlanderkev/highlanderkev-components/blob/dev/package-lock.json
+  detection_source: package.json
+  last_updated_by: Kevin Westropp
+  last_updated_on: 2018-10-02 23:49:13.000000000 Z
+- name: Puppeteer
+  description: Headless Chrome Node API
+  website_url: https://github.com/GoogleChrome/puppeteer
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Headless Browsers
+  image_url: https://img.stackshare.io/service/7553/puppeteer.png
+  detection_source_url: https://github.com/highlanderkev/highlanderkev-components/blob/dev/package.json
+  detection_source: package.json
+  last_updated_by: Kevin Westropp
+  last_updated_on: 2023-05-24 16:04:09.000000000 Z
+- name: Webpack
+  description: A bundler for javascript and friends
+  website_url: http://webpack.js.org
+  version: 5.83.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: JS Build Tools / JS Task Runners
+  image_url: https://img.stackshare.io/service/1682/IMG_4636.PNG
+  detection_source_url: https://github.com/highlanderkev/highlanderkev-components/blob/dev/package-lock.json
+  detection_source: package.json
+  last_updated_by: Kevin Westropp
+  last_updated_on: 2023-05-24 16:04:09.000000000 Z
+- name: npm
+  description: The package manager for JavaScript.
+  website_url: https://www.npmjs.com/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source_url: https://github.com/highlanderkev/highlanderkev-components/blob/dev/package.json
+  detection_source: package.json
+  last_updated_by: Kevin Westropp
+  last_updated_on: 2018-10-02 23:49:13.000000000 Z
+- name: "@polymer/paper-button"
+  description: Material design button
+  package_url: https://www.npmjs.com/@polymer/paper-button
+  version: 3.0.1
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18547/default_0e8c62fd0420ce3873a7b150d09fb9d1094266c0.png
+  detection_source_url: https://github.com/highlanderkev/highlanderkev-components/blob/dev/package-lock.json
+  detection_source: package.json
+  last_updated_by: Kevin Westropp
+  last_updated_on: 2018-12-13 05:44:45.000000000 Z
+- name: "@polymer/polymer"
+  description: The Polymer library makes it easy to create your own web components
+  package_url: https://www.npmjs.com/@polymer/polymer
+  version: 3.5.1
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16525/default_50be6a65e5f7390c20dda2f19371abc1271db012.png
+  detection_source_url: https://github.com/highlanderkev/highlanderkev-components/blob/dev/package-lock.json
+  detection_source: package.json
+  last_updated_by: Kevin Westropp
+  last_updated_on: 2018-12-13 05:44:45.000000000 Z
+- name: "@stencil/core"
+  description: A Compiler for Web Components and Progressive Web Apps
+  package_url: https://www.npmjs.com/@stencil/core
+  version: 3.3.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16352/default_9ae0e75ed749aca83d89f7e1ccb309be2bfc610e.png
+  detection_source_url: https://github.com/highlanderkev/highlanderkev-components/blob/dev/package-lock.json
+  detection_source: package.json
+  last_updated_by: Kevin Westropp
+  last_updated_on: 2023-05-24 16:04:09.000000000 Z
+- name: "@types/jest"
+  description: TypeScript definitions for Jest
+  package_url: https://www.npmjs.com/@types/jest
+  version: 24.0.25
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15840/default_004658cda9b38934f2871435e9dc15608c86e8be.png
+  detection_source_url: https://github.com/highlanderkev/highlanderkev-components/blob/dev/package-lock.json
+  detection_source: package.json
+  last_updated_by: Kevin Westropp
+  last_updated_on: 2023-05-24 16:04:09.000000000 Z
+- name: "@types/puppeteer"
+  description: TypeScript definitions for puppeteer
+  package_url: https://www.npmjs.com/@types/puppeteer
+  version: 1.19.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16766/default_c6eddffbed005d007ab4638fbcac90e4b79576b2.png
+  detection_source_url: https://github.com/highlanderkev/highlanderkev-components/blob/dev/package-lock.json
+  detection_source: package.json
+  last_updated_by: Kevin Westropp
+  last_updated_on: 2023-05-24 16:04:09.000000000 Z
+- name: "@webcomponents/webcomponentsjs"
+  description: Web Components Polyfills
+  package_url: https://www.npmjs.com/@webcomponents/webcomponentsjs
+  version: 2.8.0
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16382/default_b5c8f3c8e46d368f74a982d06d7f13291fe651ea.png
+  detection_source_url: https://github.com/highlanderkev/highlanderkev-components/blob/dev/package-lock.json
+  detection_source: package.json
+  last_updated_by: Kevin Westropp
+  last_updated_on: 2020-01-07 18:19:26.000000000 Z
+- name: html-webpack-plugin
+  description: Simplifies creation of HTML files to serve your webpack bundles
+  package_url: https://www.npmjs.com/html-webpack-plugin
+  version: 5.5.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15841/default_5e5e8ac63beda29f31f1844df64d4b8247570a66.png
+  detection_source_url: https://github.com/highlanderkev/highlanderkev-components/blob/dev/package-lock.json
+  detection_source: package.json
+  last_updated_by: Kevin Westropp
+  last_updated_on: 2023-05-24 16:04:09.000000000 Z
+- name: jest-cli
+  description: Delightful JavaScript Testing
+  package_url: https://www.npmjs.com/jest-cli
+  version: 29.3.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16022/default_7a465bc85b23fd837cbc038fd1d504632c41a884.png
+  detection_source_url: https://github.com/highlanderkev/highlanderkev-components/blob/dev/package-lock.json
+  detection_source: package.json
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2022-12-27 19:13:46.000000000 Z
+- name: ts-loader
+  description: TypeScript loader for webpack
+  package_url: https://www.npmjs.com/ts-loader
+  version: 5.4.5
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15938/default_e0a4fb1126d7400f419f0931cf1669947a5bc552.png
+  detection_source_url: https://github.com/highlanderkev/highlanderkev-components/blob/dev/package-lock.json
+  detection_source: package.json
+  last_updated_by: Kevin Westropp
+  last_updated_on: 2020-01-07 17:38:32.000000000 Z
+- name: typedoc
+  description: Create api documentation for TypeScript projects
+  package_url: https://www.npmjs.com/typedoc
+  version: 0.23.28
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15983/default_8b5680d4e916298d08363c291a0d6e34c07ceb15.png
+  detection_source_url: https://github.com/highlanderkev/highlanderkev-components/blob/dev/package-lock.json
+  detection_source: package.json
+  last_updated_by: Kevin Westropp
+  last_updated_on: 2023-05-24 16:04:09.000000000 Z
+- name: webpack-cli
+  description: CLI for webpack &amp; friends
+  package_url: https://www.npmjs.com/webpack-cli
+  version: 3.3.12
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15826/default_14fd11531839d935f920b6d55bd6f3528c890ad7.png
+  detection_source_url: https://github.com/highlanderkev/highlanderkev-components/blob/dev/package-lock.json
+  detection_source: package.json
+  last_updated_by: Kevin Westropp
+  last_updated_on: 2023-05-24 16:04:09.000000000 Z
+- name: webpack-dev-server
+  description: Serves a webpack app. Updates the browser on changes
+  package_url: https://www.npmjs.com/webpack-dev-server
+  version: 4.15.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15821/default_64690bc3e49bcee57094e51a7a26c620c48dbd82.png
+  detection_source_url: https://github.com/highlanderkev/highlanderkev-components/blob/dev/package-lock.json
+  detection_source: package.json
+  last_updated_by: Kevin Westropp
+  last_updated_on: 2023-05-24 16:04:09.000000000 Z
